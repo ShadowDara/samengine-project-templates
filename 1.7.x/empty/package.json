@@ -1,0 +1,15 @@
+{
+  "name": "empty-project",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "npx samengine-build",
+    "build": "npx samengine-build --release --single-file"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "samengine": "^1.7.1",
+    "samengine-build": "^1.7.0"
+  }
+}
