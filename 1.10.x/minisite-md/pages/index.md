@@ -4,3 +4,5 @@ This is framework which compiles a Page with Multiple Markdown files
 into 1 single Page.
 
 [Link](#/lol)
+
+[Demo](#/demo) - a Demo what the markdown parser can do
