@@ -9,6 +9,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "samengine-cli": "2.0.3"
+    "samengine-cli": "2.0.4"
   }
 }
