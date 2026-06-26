@@ -1,0 +1,4 @@
+.samengine/config.mjs
+
+node_modules
+dist

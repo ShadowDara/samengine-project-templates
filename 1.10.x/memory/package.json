@@ -1,14 +1,14 @@
 {
-  "name": "text-input-test",
-  "type": "module",
+  "name": "memory",
   "version": "1.0.0",
-  "private": true,
+  "description": "",
   "scripts": {
     "dev": "npx samengine-build",
     "build": "npx samengine-build --release"
   },
+  "author": "",
+  "license": "ISC",
   "dependencies": {
-    "canvasinput-ts": "1.0.0",
     "samengine": "1.10.0"
   }
 }
