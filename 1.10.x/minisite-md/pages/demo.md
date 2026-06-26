@@ -1,5 +1,7 @@
 # Markdown Parser Demo
 
+[Home](#)
+
 Ein vollständiger **Markdown → HTML** Parser in *TypeScript*.
 
 ## Features
