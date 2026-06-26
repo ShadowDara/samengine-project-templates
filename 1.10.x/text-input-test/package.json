@@ -4,8 +4,8 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "npx samengine-build",
-    "build": "npx samengine-build --release"
+    "dev": "npx samengine",
+    "build": "npx samengine --release"
   },
   "dependencies": {
     "canvasinput-ts": "1.0.0",

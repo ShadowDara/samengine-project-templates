@@ -1,10 +1,10 @@
 {
-  "name": "memory",
+  "name": "empty-project",
   "version": "1.0.0",
   "description": "",
   "scripts": {
     "dev": "npx samengine",
-    "build": "npx samengine --release"
+    "build": "npx samengine --release --single-file"
   },
   "author": "",
   "license": "ISC",
