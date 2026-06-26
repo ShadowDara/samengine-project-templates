@@ -17,13 +17,33 @@ __CSS__ {}
 const pages = __PAGES__;
 const app = document.getElementById("app");
 
+function normalizeRoute(route) {
+    route = route.trim();
+
+    // entfernt führende /
+    route = route.replace(/^\/+/, "");
+
+    // fallback auf index
+    if (
+        route === "" ||
+        route === "/" ||
+        route === "index"
+    ) {
+        return "index";
+    }
+
+    return route;
+}
+
 function render() {
     let route = location.hash.slice(1);
 
-    if (!route)
-        route = "index";
+    route = normalizeRoute(route);
 
-    const html = pages[route] ?? pages["404"] ?? "<h1>404</h1>";
+    const html =
+        pages[route] ??
+        pages["404"] ??
+        `<h1>404</h1><a href="#">Home</a>`;
 
     app.innerHTML = html;
 }
