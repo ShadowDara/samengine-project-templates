@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<title>MiniSite</title>
+
+<style>
+__CSS__ {}
+</style>
+</head>
+
+<body>
+
+<main id="app" class="md-body"></main>
+
+<script>
+const pages = __PAGES__;
+const app = document.getElementById("app");
+
+function render() {
+    let route = location.hash.slice(1);
+
+    if (!route)
+        route = "index";
+
+    const html = pages[route] ?? pages["404"] ?? "<h1>404</h1>";
+
+    app.innerHTML = html;
+}
+
+window.addEventListener("hashchange", render);
+window.addEventListener("DOMContentLoaded", render);
+</script>
+
+</body>
+</html>
