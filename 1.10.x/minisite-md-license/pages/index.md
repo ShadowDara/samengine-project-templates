@@ -1,8 +1,8 @@
-# Minisite
+# Minisite License
 
 This is framework which compiles a Page with Multiple Markdown files
 into 1 single Page.
 
-[Link](#/lol)
+Write here about your project
 
-[Markdown Demo](#/demo) - a Demo what the markdown parser can do
+[Here](#/links) are the Open Source links.

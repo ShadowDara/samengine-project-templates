@@ -1,0 +1,17 @@
+{
+  "projectname": "minisite-md-license",
+  "pretty": true,
+  "links": [
+    {
+      "name": "minisite-md-license Template",
+      "link": "https://github.com/ShadowDara/samengine-project-templates/tree/main/1.10.x/minisite-md-license",
+      "description": "a template to make a license file for your game or project in one html file",
+      "license": "MIT",
+      "author": "Shadowdara",
+      "licenselink": "https://mit-license.org/",
+      "showinlist": true,
+      "changenotice": true
+    }
+  ],
+  "links2": []
+}
