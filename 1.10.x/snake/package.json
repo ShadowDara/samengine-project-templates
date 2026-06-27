@@ -1,0 +1,14 @@
+{
+  "name": "snake",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "npx samengine",
+    "build": "npx samengine --release"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "samengine": "1.10.1"
+  }
+}

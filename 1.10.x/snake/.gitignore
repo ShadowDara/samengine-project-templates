@@ -1,0 +1,4 @@
+/.samengine/config.mjs
+**/.webgameengine/config.mjs
+dist
+node_modules
